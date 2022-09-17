@@ -6,7 +6,10 @@
 Este aplicativo permite tirar foto usando a camera2 do android. Utiliza também o gerenciamento de permissão do Easy Permission 
 
 ## Imagens da Aplicação
-![mobile 1](https://github.com/RenanCostaSilva/Camera2/blob/main/wall.png)
+![mobile 1](https://github.com/RenanCostaSilva/Camera2/blob/main/IMG-0027.jpg)
+![mobile 2](https://github.com/RenanCostaSilva/Camera2/blob/main/IMG-0028.jpg)
+![mobile 3](https://github.com/RenanCostaSilva/Camera2/blob/main/IMG-0029.jpg)
+![mobile 4](https://github.com/RenanCostaSilva/Camera2/blob/main/IMG-0030.jpg)
 
 ## SDK
 minSdk: 29 / alvo: 32
