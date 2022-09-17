@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="foto"
+            type="br.dev.com.camera.ui.activity.MainActivity"/>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BCBABA"
+        tools:context=".ui.activity.MainActivity">
+
+        <br.dev.com.camera.ui.imagem.ProportionalImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/wall" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab_Fotografar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:backgroundTint="@color/purple_200"
+                    app:srcCompat="@drawable/ic_camera_white" />
+            </RelativeLayout>
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

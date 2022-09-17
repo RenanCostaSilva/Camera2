@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Camera</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="rationale_camera">Este app precisa de acessar sua câmera para tira fotos.</string>
+    <string name="rationale_write">Este app precisa de salvar a foto da câmera.</string>
+
+    <string name="Sim">Sim</string>
+    <string name="Não">Não</string>
+
+    <string name="returned_from_app_settings_to_activity">
+        Returned from app settings to MainActivity with the following permissions:
+        \n\nCamera: %s
+        \nWrite: %s
+        \nRead: %s
+    </string>
+
+</resources>
